@@ -1,0 +1,14 @@
+name: MMSLT
+data:
+  label_path:
+    train: ./data/csl-daily/csllabels.train
+    dev: ./data/csl-daily/csllabels.dev
+    test: ./data/csl-daily/csllabels.test
+  descript_feat_path:
+    train: /path/to/descript/CSLdaily_SLdescriptions.train
+    dev: /path/to/descript/CSLdaily_SLdescriptions.dev
+    test: /path/to/descript/CSLdaily_SLdescriptions.test
+  img_path: /path/to/image/datasets 
+  max_length: 500
+training:
+  wandb: disabled # online or disabled

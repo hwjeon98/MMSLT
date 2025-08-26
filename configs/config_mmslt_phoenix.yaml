@@ -1,0 +1,14 @@
+name: MMSLT
+data:
+  label_path:
+    train: ./data/phoenix-2014T/labels.train # or CSL labels
+    dev: ./data/phoenix-2014T/labels.dev
+    test: ./data/phoenix-2014T/labels.test
+  descript_feat_path:
+    train: /path/to/descript/phoenix_SLdescriptions.train
+    dev: /path/to/descript/phoenix_SLdescriptions.dev
+    test: /path/to/descript/phoenix_SLdescriptions.test
+  img_path: /path/to/image/datasets 
+  max_length: 500
+training:
+  wandb: disabled # online or disabled
