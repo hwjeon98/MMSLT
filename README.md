@@ -1,11 +1,4 @@
-<<<<<<< HEAD
 # MMSLT
-
-Comming soon
-=======
-# README
-
-### Due to lack of capacity, the pre-trained model ckpt was not included. It will be released after publish.
 
 ## Installation
 
